@@ -278,7 +278,7 @@ button, input[type="submit"] {
 .flex-center-start { 
     display: flex;
     justify-content: center;
-    align-items: left;
+    align-items: flex-start;
 }
 
 .flex-column {
