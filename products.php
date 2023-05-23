@@ -9,14 +9,14 @@
 ?>
         <main id="products" class="fullwidth margin-center">
             <div id="productsBgCover" class="bg-cover h-1000 fullheight-vertical-80">
-                <div class="black-bg-05 flex-center fullwidth fullheight-vertical-80">
+                <div class="black-bg-05 flex flex-center fullwidth fullheight-vertical-80">
                     <h1 class="ebony medium fade-scale">Products</h1>
                 </div>
             </div>
             <div id="asideGrid" class="w-2000 margin-center">
             <aside id="aside" class="fade-in padding">
                 <div id="asideFixed" class="margin-none">
-                <h3 class="ebony green-underline flex-between margin-none">Filter By<img src="images/filter.svg" alt="Filter" class="filter-icon open-categories margin-bottom-light hover"></h3>
+                <h3 class="ebony green-underline flex flex-between margin-none">Filter By<img src="images/filter.svg" alt="Filter" class="filter-icon open-categories margin-bottom-light hover"></h3>
                 <ul id="categoryAside" class="margins-light margin-top no-list-style">
                     <li><input type="radio" name="option" value="All" id="allOptionDesktop" checked><label for="allOptionDesktop">All</label>
                     <li><input type="radio" name="option" value="Camping" id="campingOptionDesktop"><label for="campingOptionDesktop">Camping</label>
@@ -25,7 +25,7 @@
                     <li><input type="radio" name="option" value="Cycling" id="cyclingOptionDesktop"><label for="cyclingOptionDesktop">Cycling</label>
                 </ul>
                 <div id="categoryMenu" class="white-bg position-fixed-left fullwidth fullheight-vertical padding">
-                    <h3 class="ebony green-underline flex-between fade-bottom">Select Category: <span class="exit-categories margin-none red-hover">&#10006;</span></h3>
+                    <h3 class="ebony green-underline flex flex-between fade-bottom">Select Category: <span class="exit-categories margin-none">&#10006;</span></h3>
                     <ul class="no-list-style margins-light fade-right">
                         <li><input type="radio" name="option" value="All" id="allOptionMobile" checked><label for="allOptionMobile">All</label>
                         <li><input type="radio" name="option" value="Camping" id="campingOptionMobile"><label for="campingOptionMobile">Camping</label>
@@ -48,7 +48,7 @@
                 print "<a href=\"description.php?id=".$row['id']."\" class=\"All ".$row['category']."\" data-price=\"".$row['price']."\">";	
                     print '<figure class="product">';
                     print '<img src="thumbnails/'.$row['image'].'" alt="'.$row['product'].'">';
-                    print '<figcaption class="flex-center-start flex-column margins-light">';
+                    print '<figcaption class="flex flex-center-start flex-column margins-light">';
 				    print '<span class="product-name bold">'.$row['product'].'</span>';
                     print '<span class="product-category">'.$row['category'].'</span>';
                     print '<span class="product-price turquoise">$'.$row['price'].' CAD</span>';

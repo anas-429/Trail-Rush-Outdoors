@@ -269,16 +269,18 @@ button, input[type="submit"] {
     width: 100%;
 }
 
-.flex-center { 
+.flex {
     display: flex;
+}
+
+.flex-center { 
     justify-content: center;
     align-items: center;
 }
 
 .flex-center-start { 
-    display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: left;
 }
 
 .flex-column {
@@ -286,7 +288,6 @@ button, input[type="submit"] {
 }
 
 .flex-between {
-    display: flex;
     justify-content: space-between;
 }
 
@@ -454,26 +455,16 @@ button, input[type="submit"] {
 
 header nav ul li a:hover {
     color: #FFD19A;
-}
-
-nav ul li a:hover {
-    color: #F24535;
+    transition: 0.4s ease-out;
 }
 
 .pointer:hover {
     cursor: pointer;
 }
 
-.red-hover:hover {
-    color: #F24535;
-}
-
-.red-bg-hover:hover {
-    background: #F24535;
-}
-
-.gold-bg-hover:hover {
-    background: #F2911B;
+.beige-bg-hover:hover {
+    background: #FFD19A;
+    transition: 0.4s ease-out;
 }
 
 /*ANIMATIONS*/

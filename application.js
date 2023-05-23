@@ -185,20 +185,20 @@ function outputCart() {
         <div class="cart-product-container" data-id="${item.id}" data-name="${item.name}" data-price="${item.price}">
         <div class="cart-product">
             <div class="cart-product-thumb"><img src="thumbnails/${item.image}" alt="${item.name}"></div>
-            <div class="cart-product-info flex-center-start flex-column">
+            <div class="cart-product-info flex flex-center-start flex-column">
                 <h4>${item.name}</h4>
                 <p>$ ${item.price} CAD</p>
                 <p><span class="bold">Subtotal:</span> <span class="turquoise">$ ${item.quantity * item.price} CAD</span></p>
             </div>
-            <div class="cart-product-remove flex-center-start flex-column">
-                <span class="remove-item red-hover margin-center pointer">&#10006</span>
+            <div class="cart-product-remove flex flex-center-start flex-column">
+                <span class="remove-item margin-center pointer">&#10006</span>
             </div>
         </div>
-        <div class="quantity flex-center flex-between margin-bottom">
+        <div class="quantity flex flex-center flex-between margin-bottom">
             <p>Quantity:</p>
-            <span class="quantity-control decrement navy-bg bold red-bg-hover pointer">-</span>
+            <span class="quantity-control decrement navy-bg bold beige-bg-hover pointer">-</span>
             <span class="amount">${item.quantity}</span>
-            <span class="quantity-control increment navy-bg bold red-bg-hover pointer">+</span>
+            <span class="quantity-control increment navy-bg bold beige-bg-hover pointer">+</span>
         </div>
         </div>`;
 
@@ -209,7 +209,7 @@ function outputCart() {
             tab.innerHTML = `
             <p class="bold">Total Cost: <span id="cartTotal" class="turquoise">$${totalCost} CAD</span></p>
             <input type="submit" value="Checkout" id="checkoutButton" 
-            class="ebony turquoise-bg gold-bg-hover fullwidth margin-none padding button pointer">
+            class="ebony turquoise-bg beige-bg-hover fullwidth margin-none padding button pointer">
             `;
         } else {
             items.innerHTML = `<p>There aren't any items in your cart.</p>`;

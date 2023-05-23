@@ -31,7 +31,7 @@
                 print '<h4 class="x-small">'.$row['category'].'</h4>';
                 print '</div>';
                 print '<div class="container margin-none">';
-                print '<input type="submit" value="Add To Cart" id="'.$row['id'].'" class="ebony turquoise-bg gold-bg-hover fullwidth margin-none padding button purchase-button pointer">';
+                print '<input type="submit" value="Add To Cart" id="'.$row['id'].'" class="ebony turquoise-bg beige-bg-hover fullwidth margin-none padding button purchase-button pointer">';
                 print '</div>';
             print '</div>';
         

@@ -55,7 +55,7 @@ function finalCart() {
                 <div class="final-product-thumb">
                     <img src="thumbnails/${item.image}" alt="${item.image}">
                 </div>
-                <div class="final-product-info flex-center-start flex-column margins-light">
+                <div class="final-product-info flex flex-center-start flex-column margins-light">
                     <h4>${item.name}</h4>
                     <p>Subtotal: $${item.quantity * item.price} CAD</p>
                     <p>Quantity: ${item.quantity}</p>

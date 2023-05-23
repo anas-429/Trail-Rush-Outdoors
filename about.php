@@ -8,7 +8,7 @@
             <div class="double-layout-gap margin-bottom">
                 <img src="images/images/supplies-narrow.jpg" alt="Camping Supplies" class="fade-in narrow-img">
                 <img src="images/images/supplies-cropped.jpg" alt="Camping Supplies" class="fade-in cropped-img">
-                <article class="flex-center-start flex-column fade-in">
+                <article class="flex flex-center-start flex-column fade-in">
                     <h2 class="ebony medium green-underline margin-bottom">About</h2>
                     <p class="margin-bottom">Trail Rush is a retail store that specializes in outdoor activities. Just because we are
                     an outdoor retailer doesn't mean we only specialize in camping. Trail Rush has a niche for all kinds of activities.</p>
@@ -18,7 +18,7 @@
             <div class="double-layout-gap">
                 <img src="images/images/mug-narrow.jpg" alt="First-Person view of a mug" class="fade-in narrow-img">
                 <img src="images/images/mug-cropped.jpg" alt="First-Person view of a mug" class="fade-in cropped-img">
-                <article class="flex-center-start flex-column fade-in">
+                <article class="flex flex-center-start flex-column fade-in">
                     <h2 class="ebony medium green-underline margin-bottom">Mission</h2>
                     <p class="margin-none">Our mission is not only to sell you outdoor equipment, but to enhance your outdoor experience. We carry equipment for various activities so you will be able to enjoy a host of activities.</p>
                 </article>

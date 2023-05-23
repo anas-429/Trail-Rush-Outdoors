@@ -8,9 +8,9 @@
 			
     if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
-		print '<dialog id="formDialog" class="dialog black-bg-05 position-fixed-left flex-center fullheight fullwidth" open>
+		print '<dialog id="formDialog" class="dialog black-bg-05 position-fixed-left flex flex-center fullheight fullwidth" open>
         <div class="w-500 h-500 white-bg padding fade-scale">
-            <h2 class="ebony small green-underline flex-between margin-bottom fade-right">Form Submitted!<span class="exit-modal red-hover pointer margin-none">&#10006;</span></h2>
+            <h2 class="ebony small green-underline flex flex-between margin-bottom fade-right">Form Submitted!<span class="exit-modal pointer margin-none">&#10006;</span></h2>
             <p class="margin-none">Someone from customer service will reach out to you as soon as possible. We are open to resolving
 			any customer concerns.</p>
         </div>
@@ -59,7 +59,7 @@
                 </div>
                     
 				<input type="submit" value="Submit"
-				class="ebony turquoise-bg gold-bg-hover fullwidth margin-none padding fade-in pointer">
+				class="ebony turquoise-bg beige-bg-hover fullwidth margin-none padding fade-in pointer">
 			</form>
             </div>
         </main>

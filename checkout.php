@@ -5,10 +5,10 @@
 ?>
     <dialog id="shoppingCartDialog" class="dialog black-bg-05 position-fixed-left fullwidth fullheight-vertical">
         <div class="w-500 h-500 white-bg fullwidth fullheight-vertical margin-none padding scrollable fade-scale">
-            <h2 class="ebony green-underline flex-between margin-bottom fade-right">Shopping Cart<span class="exit-modal margin-none pointer">&#10006;</span></h2>
+            <h2 class="ebony green-underline flex flex-between margin-bottom fade-right">Shopping Cart<span class="exit-modal margin-none pointer">&#10006;</span></h2>
             <div id="finalized" class="margin-none">
             </div>
-            <div id="finalizedTab" class="flex-end">
+            <div id="finalizedTab" class="flex flex-end">
                 <p class="fade-right"><span class="bold">Total Cost:</span> <span id="finalizedTotal"></span></p>
             </div>
         </div>
@@ -16,7 +16,7 @@
     <main id="checkout" class="double-half w-1000 margin-center margins padding">
 
         <article class="fullwidth">
-            <h2 class="ebony green-underline flex-between margin-bottom">Checkout <i class="foundicon-cart margin-none final-icon pointer"></i></h2>
+            <h2 class="ebony green-underline flex flex-between margin-bottom">Checkout <i class="foundicon-cart margin-none final-icon pointer"></i></h2>
             <p class="margin-none">Before you can fill out your payment information, you will need to provide your mailing address and contact information. We want to make sure that you can keep track of your shipment.</p>
         </article>
 
@@ -77,7 +77,7 @@
                 <input type="text" name="email" 
 				id="email" class="input-text fullwidth margin-none padding-light" placeholder="Email" required>
             </div>
-			    <input type="submit" id="completeButton" name="submit" value="Checkout" class="turquoise-bg gold-bg-hover bold fullwidth margin-none padding-light pointer">
+			    <input type="submit" id="completeButton" name="submit" value="Checkout" class="turquoise-bg beige-bg-hover bold fullwidth margin-none padding-light pointer">
             </div>
 
             <input type="hidden" name="hiddenProducts" 
@@ -117,9 +117,9 @@
 
         if (mysqli_query($connection, $query)) {
 
-            print '<dialog id="paymentCompleteDialog" class="dialog black-bg-05 position-fixed-left flex-center fullheight-vertical fullwidth" open>
+            print '<dialog id="paymentCompleteDialog" class="dialog black-bg-05 position-fixed-left flex flex-center fullheight-vertical fullwidth" open>
             <div class="white-bg w-500 h-500 margins padding fade-scale">
-                <h2 class="ebony green-underline flex-between fade-right">Payment Complete!</h2>
+                <h2 class="ebony green-underline flex flex-between fade-right">Payment Complete!</h2>
                 <p>You should receive an email confirming the details of your order. All you have to do is wait for the order to arrive at your residence.</p>
                 <button class="ebony turquoise-bg gold-bg-hover margin-none padding-light fullwidth pointer"><a href="index.php" class="margin-none white">Return to Homepage</a></button>
             </div>

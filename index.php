@@ -5,7 +5,7 @@
     $_SESSION['page'] = 'index.php';
 ?>
         <main id="home" class="fullwidth margin-center">
-            <div id="homeBgCover" class="bg-cover flex-center fullheight-vertical">
+            <div id="homeBgCover" class="bg-cover flex flex-center fullheight-vertical">
                 <article class="black-bg-05 w-1000 margin-center padding fade-in">
                     <h2 class="ebony medium margin-bottom-light">Welcome</h2>
                     <p class="margin-bottom">If you are planning any outdoor activities, then you've come to the right place. This website contains a variety of products divided by category. You can add any of the products to your shopping cart, then click on the shopping cart icon to finalize your purchase.</p>
@@ -29,7 +29,7 @@
                 print "<a href=\"description.php?id=".$row['id']."\" class=\"All ".$row['category']."\" data-price=\"".$row['price']."\">";	
                     print '<figure class="product">';
                     print '<img src="thumbnails/'.$row['image'].'" alt="'.$row['product'].'">';
-                    print '<figcaption class="flex-center-start flex-column margins-light">';
+                    print '<figcaption class="flex flex-center-start flex-column margins-light">';
 				    print '<span class="product-name bold">'.$row['product'].'</span>';
                     print '<span class="product-category">'.$row['category'].'</span>';
                     print '<span class="product-price turquoise">$'.$row['price'].' CAD</span>';

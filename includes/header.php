@@ -28,13 +28,13 @@
 	</head>
     <body>
 	<header class="navy-bg fullwidth padding">
-        <div class="header-img flex-center fade-in">
+        <div class="header-img flex flex-center fade-in">
             <a href="index.php">
                 <img src="images/logo.svg" alt="Trail Rush Logo">
             </a>
         </div>
         <nav id="desktopMenu" class="fade-in">
-        <ul class="flex-center">
+        <ul class="flex flex-center">
             <li class="hamburger pointer"><a>&#9776;</a>
             <li class="link"><a href="index.php">Home</a>
             <li class="link"><a href="products.php">Products</a>
@@ -48,7 +48,7 @@
         <div class="scrollable fullheight-vertical">
             <form method="post" action="checkout.php">
             <div id="cartHeading" class="padding">
-                <h2 class="ebony small green-underline flex-between">Shopping Cart <span class="exit-cart red-hover pointer">&#10006;</span></h2>
+                <h2 class="ebony small green-underline flex flex-between">Shopping Cart <span class="exit-cart pointer">&#10006;</span></h2>
             </div>
             <div id="cartContent">
                 <div id="items">
@@ -63,7 +63,7 @@
     <div class="fullscreen">
         <div id="mobileMenu" class="white-bg position-fixed-left fullheight-vertical fullwidth margins padding">
             <nav id="mobileNav">
-            <h3 class="ebony green-underline flex-between fade-bottom pointer">Main Menu <span class="exit-mobile margin-none red-hover">&#10006;</span></h3>
+            <h3 class="ebony green-underline flex flex-between fade-bottom pointer">Main Menu <span class="exit-mobile margin-none">&#10006;</span></h3>
             	<ul class="pointer fade-right">
                     <li><a href="index.php">Home</a>
                     <li><a href="products.php">Products</a>
